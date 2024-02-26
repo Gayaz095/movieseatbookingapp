@@ -1,0 +1,63 @@
+.checkout-container {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.checkout-content {
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.checkout-title {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #91979d;
+    padding-bottom: 10px;
+}
+
+.movie-info,
+.seats-info {
+    margin-bottom: 20px;
+    border: 2px solid #91979d;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.movie-text,
+.seats-text,
+.total-text {
+    margin-bottom: 10px;
+}
+
+.movie-name {
+    background-color: #2571be;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.seats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.seat-box {
+    background-color: #3f52a8;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-checkout {
+    margin-top: 20px;
+    float: right;
+}
